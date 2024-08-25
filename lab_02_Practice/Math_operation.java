@@ -15,8 +15,8 @@ class Operation {
 					+ "4. Division (/).\r\n"
 					+ "Enter operation number:  ");
 			int option = obj1.nextInt() ;
-			boolean p = true ;
-			while( p == true)
+
+			while( true )
 			 if(option == 1) {
 				 System.out.println("The result is : " + (a + b));
 				 return ;

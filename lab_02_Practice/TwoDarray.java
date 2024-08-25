@@ -17,7 +17,7 @@ class Array_operate  {
 		}
 		//taking input from user 
 		Scanner obJ = new Scanner (System.in);
-		System.out.println("Input the 4*4 matrix : \n" );
+		System.out.println("Input the 4*4 matrix : \n " );
 		for (int i =0 ; i<4 ; i++) {
 			for (int j=0 ; j<4 ; j++) {
 		System.out.print("Put element at"
@@ -25,17 +25,13 @@ class Array_operate  {
 				A[i][j] = obJ.nextInt() ;
 			}
 		}
-		// summed values for last row
+		// summing values for last row
 	    for (int i=4; i<5 ;i++) {
 			for (int y=3 ; y<4 ; y++) {
 				for(int a = 0; a <4; a++ ) {      
 					A[i][a] = A[y][a] + A[y-1][a]+A[y-2][a]+A[y-3][a] ;
-					
-	             }  
-				
-	      
-		}
-	
+					 }
+				}
 		}
 	    
 	    
