@@ -8,17 +8,18 @@
        http://www.springframework.org/schema/context
        https://www.springframework.org/schema/context/spring-context.xsd">
 
-    <bean class="org.example.Student" name="SarmadShah">
-        <property name="studentId">
-            <value>77</value>
-        </property>
-        <property name="studentName">
-            <value>Sarmad Rehman</value>
-        </property>
-        <property name="studentAddress">
-            <value>Homeless, nomad</value>
-        </property>
-    </bean>
+    <bean class="org.example.Student" name="SarmadShah" p:studentId = "2077"
+    p:studentName = "Sarmad" p:studentAddress="niazi street"/>
+<!--        <property name="studentId">-->
+<!--            <value>77</value>-->
+<!--        </property>-->
+<!--        <property name="studentName">-->
+<!--            <value>Sarmad Rehman</value>-->
+<!--        </property>-->
+<!--        <property name="studentAddress">-->
+<!--            <value>Homeless, nomad</value>-->
+<!--        </property>-->
+<!--    </bean>-->
 
     <!-- Additional beans can be added here -->
 
