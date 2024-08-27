@@ -8,8 +8,8 @@
        http://www.springframework.org/schema/context
        https://www.springframework.org/schema/context/spring-context.xsd">
 
-    <bean class="org.example.Student" name="SarmadShah" p:studentId = "2077"
-    p:studentName = "Sarmad" p:studentAddress="niazi street"/>
+    <bean class="org.springcore.Student" name="SarmadShah" p:studentId = "2077"
+          p:studentName = "Sarmad" p:studentAddress="niazi street"/>
 <!--        <property name="studentId">-->
 <!--            <value>77</value>-->
 <!--        </property>-->

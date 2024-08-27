@@ -1,4 +1,4 @@
-package org.example;
+package org.springcore;
 
 
 // this class is a bean to inject data
